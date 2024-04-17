@@ -4583,7 +4583,7 @@
 		)
 		(uuid "e6982dab-e007-4c9e-bce6-aa8a7f266eb7")
 	)
-	(text "2.5 V output @ 5 A\n5 A * 0.02 R = 0.1 V\n3.0 = 0.1 (Ro/Ri)\nlet Ro = 2500\nRi = 100\n\n"
+	(text "2.5 V output @ 5 A\n5 A * 0.02 R = 0.1 V\n3.0 = 0.1 (Ro/Ri)\nlet Ri = 500\nRo = 15k\n\n"
 		(exclude_from_sim no)
 		(at 92.71 45.974 0)
 		(effects
@@ -7745,7 +7745,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "500R"
 			(at 77.47 34.2899 0)
 			(effects
 				(font
@@ -7881,7 +7881,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2.5kR"
+		(property "Value" "15kR"
 			(at 60.706 60.96 0)
 			(effects
 				(font
