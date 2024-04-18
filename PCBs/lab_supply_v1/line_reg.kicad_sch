@@ -5615,7 +5615,7 @@
 		)
 		(uuid "d117fd60-152a-4765-b55c-31b6e05b7fe7")
 	)
-	(text "32 V @ 5 A\n"
+	(text "36 V @ 5 A"
 		(exclude_from_sim no)
 		(at 209.296 72.39 0)
 		(effects
@@ -5639,6 +5639,18 @@
 		)
 		(uuid "41e81454-5592-412a-bdf9-6e5745aeb8bd")
 	)
+	(hierarchical_label "+36V"
+		(shape output)
+		(at 229.87 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "495502fb-6c3c-41d3-9481-d3d66fed7565")
+	)
 	(hierarchical_label "HOT"
 		(shape input)
 		(at 31.75 31.75 180)
@@ -5651,19 +5663,6 @@
 			(justify right)
 		)
 		(uuid "7e69da33-ee24-4157-8f3a-a4e563834c9d")
-	)
-	(hierarchical_label "+32V"
-		(shape output)
-		(at 229.87 80.01 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "e0fdf049-0e95-4f67-87b9-aead53075184")
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")

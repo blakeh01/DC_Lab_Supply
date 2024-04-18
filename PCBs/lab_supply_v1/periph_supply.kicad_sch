@@ -3077,19 +3077,6 @@
 			)
 		)
 	)
-	(hierarchical_label "+32V"
-		(shape input)
-		(at 20.32 26.67 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "742e8d31-6bf0-4f29-88fb-d50ae2c2f749")
-	)
 	(hierarchical_label "+3.3V"
 		(shape input)
 		(at 229.87 34.29 0)
@@ -3102,6 +3089,18 @@
 			(justify left)
 		)
 		(uuid "8d99c33e-3504-40dd-b5e6-ed9b6974532d")
+	)
+	(hierarchical_label "+36V"
+		(shape input)
+		(at 20.32 26.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8fa6365c-646f-49ea-9a5e-47080cc0a872")
 	)
 	(hierarchical_label "+5V"
 		(shape input)

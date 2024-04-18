@@ -192,6 +192,102 @@
 				)
 			)
 		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(wire
 		(pts
@@ -212,6 +308,153 @@
 			(type default)
 		)
 		(uuid "fd3fa9b6-c9fb-42e7-8882-969375c24863")
+	)
+	(text "wx-dc2416"
+		(exclude_from_sim no)
+		(at 125.73 49.784 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "1dcc7f84-7805-4096-af3c-bbb8b4dd968e")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 124.46 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a6eee8d-64de-4d91-94bf-1cf6da4c447c")
+		(property "Reference" "#PWR021"
+			(at 124.46 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 124.46 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0dfec886-af13-4b9a-aa1a-4d295c452929")
+		)
+		(instances
+			(project "lab_supply_v1"
+				(path "/c381ddef-a21e-4847-9921-7e6cff5e49a3"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 127 57.15 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4270e697-3d55-462e-a727-ed636a1a1760")
+		(property "Reference" "J5"
+			(at 125.73 52.578 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DC-BYPASS"
+			(at 125.476 54.356 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 127 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5651ef9-0732-4550-844d-6845784e995a")
+		)
+		(pin "2"
+			(uuid "f961d684-0e6c-44a6-89a7-d6fc54f044a1")
+		)
+		(instances
+			(project "lab_supply_v1"
+				(path "/c381ddef-a21e-4847-9921-7e6cff5e49a3"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
@@ -282,7 +525,7 @@
 		)
 	)
 	(sheet
-		(at 153.035 97.917)
+		(at 155.575 37.592)
 		(size 30.48 22.225)
 		(fields_autoplaced yes)
 		(stroke
@@ -294,7 +537,7 @@
 		)
 		(uuid "01eef697-a715-4e9d-9e7c-e0556cbb5130")
 		(property "Sheetname" "MCU"
-			(at 153.035 97.2054 0)
+			(at 155.575 36.8804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -303,7 +546,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 153.035 120.7266 0)
+			(at 155.575 60.4016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -320,7 +563,7 @@
 		)
 	)
 	(sheet
-		(at 154.94 35.56)
+		(at 120.65 96.52)
 		(size 28.575 20.32)
 		(fields_autoplaced yes)
 		(stroke
@@ -332,7 +575,7 @@
 		)
 		(uuid "571db1cc-401b-4078-8e64-445699524dd9")
 		(property "Sheetname" "PeriphSupply"
-			(at 154.94 34.8484 0)
+			(at 120.65 95.8084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -341,7 +584,7 @@
 			)
 		)
 		(property "Sheetfile" "periph_supply.kicad_sch"
-			(at 154.94 56.4646 0)
+			(at 120.65 117.4246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -445,15 +688,15 @@
 			)
 			(uuid "8e404e04-1260-41ed-b59f-6419a6927906")
 		)
-		(pin "+32V" output
-			(at 117.094 74.93 0)
+		(pin "+36V" output
+			(at 117.094 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "ef7d7238-a021-4172-984b-e6b03b5937ce")
+			(uuid "4a504d4e-bdf9-43a4-a6b1-a861ae21b381")
 		)
 		(instances
 			(project "lab_supply_v1"
