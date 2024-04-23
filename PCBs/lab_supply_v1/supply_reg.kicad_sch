@@ -5505,6 +5505,16 @@
 		)
 		(uuid "3e4a9c88-0647-4385-97dd-1595264c6976")
 	)
+	(text "Vgs, on @ 4.5 V MAX. \nOp amp output > 4.5 V + 3.3 V\n~7.8 V to drive 3.3 A"
+		(exclude_from_sim no)
+		(at 103.124 151.638 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "413eddee-9719-4b15-888f-b8bf316eb47a")
+	)
 	(text "1V/1A"
 		(exclude_from_sim no)
 		(at 25.908 147.574 0)
